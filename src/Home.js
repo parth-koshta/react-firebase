@@ -94,7 +94,7 @@ export default class Home extends Component {
                   this.setState({ searchValue: event.target.value });
                 }}
               />
-              <Button variant="outline-info">Search</Button>
+              {/* <Button variant="outline-info">Search</Button> */}
 
               <Button
                 variant="primary"
